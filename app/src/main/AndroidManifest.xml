@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.itapplication">
+    <!-- アクセス権の設定 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--                            ↓HTTP通信を有効にする-->
+    <application android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/waplus"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Datails_recipe"></activity>
+        <activity android:name=".Manner_details"></activity>
+        <!-- <activity android:name=".activity_tab6_fragment" /> -->
+        <!-- <activity android:name=".activity_tab5_fragment" /> -->
+        <!-- <activity android:name=".activity_tab4_fragment" /> -->
+        <!-- <activity android:name=".activity_tab3_fragment" /> -->
+        <!-- <activity android:name=".activity_tab2_fragment" /> -->
+        <!-- <activity android:name=".activity_tab1_fragment" /> -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

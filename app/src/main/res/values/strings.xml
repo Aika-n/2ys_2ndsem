@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">和+</string>
+
+    <!--   main button_name-->
+    <string name="HomeButton">ホーム</string>
+    <string name="RecipeButton">レシピ</string>
+    <string name="MannerButton">マナー</string>
+
+    <!--    fragment_text-->
+
+    <string name="HomeFragment">ホームテキスト</string>
+    <string name="RecipeFragment">れせぴ～～～～</string>
+    <string name="MannerFragment">マナ～～～～～～</string>
+
+<!--    details recipe button and text-->
+    <string name="zairyotext">材料</string>
+    <string name="tejuntext">手順</string>
+    <string name="makedbButton">作ったよ</string>
+    <string name="reviewButton">レビュー</string>
+</resources>
